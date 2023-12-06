@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Digital Finance</title>
+  </head>
+  <body class="bg-color-primary text-white tracking-wider font-Poppins">
+    <header>
+      <nav class="container flex justify-between items-center">
+        <div class="text-color-secondary py-5 font-bold text-3xl">
+          <a href="#home"> <span class="text-white">Digital</span>Finance </a>
+        </div>
+        <div>
+          <ul class="hidden lg:flex items-center space-x-6">
+            <li>
+              <a
+                href="#home"
+                class="hover:text-color-secondary ease-in duration-200 font-medium"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#features"
+                class="hover:text-color-secondary ease-in duration-200 font-medium"
+                >Features</a
+              >
+            </li>
+            <li>
+              <a
+                href="#testimonials"
+                class="hover:text-color-secondary ease-in duration-200 font-medium"
+                >Testimonials</a
+              >
+            </li>
+            <li>
+              <a
+                href="#pricing"
+                class="hover:text-color-secondary ease-in duration-200 font-medium"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#blog"
+                class="hover:text-color-secondary ease-in duration-200 font-medium"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="hover:text-color-secondary ease-in duration-200 font-medium"
+                >Contact</a
+              >
+            </li>
+
+            <li><button class="btn">Free Trial</button></li>
+          </ul>
+        </div>
+
+        <!-- mobile screen -->
+        <div id="bars" class="lg:hidden text-lg cursor-pointer z-10">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div
+          id="menu"
+          class="hidden h-[100vh] bg-color-primary-dark absolute inset-0"
+        >
+          <ul class="h-full grid place-items-center py-20">
+            <li>
+              <a
+                href="landing.html"
+                class="hover:text-color-secondary ease-in duration-200 font-medium"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#features"
+                id="hLinks"
+                class="hover:text-color-secondary ease-in duration-200 font-medium"
+                >Features</a
+              >
+            </li>
+            <li>
+              <a
+                href="#testimonials"
+                id="hLinks"
+                class="hover:text-color-secondary ease-in duration-200 font-medium"
+                >Testimonials</a
+              >
+            </li>
+            <li>
+              <a
+                href="#pricing"
+                id="hLinks"
+                class="hover:text-color-secondary ease-in duration-200 font-medium"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#blog"
+                id="hLinks"
+                class="hover:text-color-secondary ease-in duration-200 font-medium"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                id="hLinks"
+                class="hover:text-color-secondary ease-in duration-200 font-medium"
+                >Contact</a
+              >
+            </li>
+
+            <li><button class="btn">Free Trial</button></li>
+          </ul>
+        </div>
+        <!-- mobile screen -->
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="relative -z-20">
+        <div
+          class="blur1">
+        </div>
+        <div class="container py-20">
+          <div class="flex flex-col items-center z-20 md:flex-row">
+            <div>
+              <img class="md: w-[550px]" src="/img/hero.png" alt="" />
+            </div>
+            <div
+              class="lg:ml-14 text-center mt-12 md:w-1/2 md:text-left md:pr-10"
+            >
+              <h1 class="title">Awsome App for your Financial</h1>
+              <p class="leading-relaxed mb-10">
+                This should be used to tell a story and let your users know a
+                little more about app and it's use, How can benefit them.
+              </p>
+              <button class="btn">Download App</button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="blur2"
+        ></div>
+      </section>
+
+      <section id="features" class="bg-color-primary-light">
+        <div class="container py-20">
+          <div class="text-center md:w-1/2 mb-20 m-auto">
+            <h4 class="text-color-secondary font-bold mb-4">Our Future</h4>
+            <h1 class="title">Easy to Manage Your All Payments By Our App</h1>
+          </div>
+
+          <div class="grid lg:grid-cols-3 md:grid-cols-2 lg:gap-8 gap-12 px-4 sm:px-6 lg:px-8">
+            <!-- Card no 1 -->
+            <div
+              class="hover:bg-color-primary-dark ease-in duration-200 cursor-pointer border-2 border-solid border-color-gray rounded-2xl text-center py-20 px-5" >
+              <div class="bg-color-secondary inline-block py-5 px-6 rounded-2xl">
+                <i class="fa-solid fa-calendar-days text-4xl"></i>
+              </div>
+              <h3 class="text-xl font-bold py-4">Expence Trakering</h3>
+              <p class="leading-relaxed">
+                We used an application designed a testing gones to keep away.
+              </p>
+            </div>
+            <!-- Card no 2 -->
+            <div class="hover:bg-color-primary-dark ease-in duration-200 cursor-pointer border-2 border-solid border-color-gray rounded-2xl text-center py-20 px-5">
+              <div class="bg-color-secondary inline-block py-5 px-6 rounded-2xl">
+                <i class="fa-solid fa-chart-column text-4xl"></i>
+              </div>
+              <h3 class="text-xl font-bold py-4">Finance Snapshot</h3>
+              <p class="leading-relaxed">
+                Get a financial snapshot with real-time updates on your investments and portfolio.
+              </p>
+            </div>
+
+            <!-- Card no 3 -->
+            <div
+              class="hover:bg-color-primary-dark ease-in duration-200 cursor-pointer border-2 border-solid border-color-gray rounded-2xl text-center py-20 px-5">
+              <div class="bg-color-secondary inline-block py-5 px-6 rounded-2xl">
+                <i class="fa-solid fa-calendar-days text-4xl"></i>
+              </div>
+              <h3 class="text-xl font-bold py-4">Support 24/7</h3>
+              <p class="leading-relaxed">
+                We're here for you 24/7, ready to assist whenever you need help.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="saving-money">
+        <div class="container py-20 relative">
+          <div class="blur2"></div>
+        <div class="blur1"></div>
+          <div class="flex flex-col-reverse items-center justify-between md:flex-row">
+            <div class="text-center md:text-left md:h-1/2 md:mr-20">
+                <h4 class="text-color-secondary font-bold mb-4">Saving Money</h4>
+                <h1 class="title mb-4">Best Financing App to Save Your Money</h1>
+                <p class="leading-relaxed mb-10">Best Financing app ever in the world. Easy to use and very user friendly  for mobile banking. You can control your card easily and send money some one just one click</p>
+                <button class="btn">Read More</button>
+            </div>
+            <div>
+              <img class="md:w-[1000px]" src="/img/cashback.png">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-work" class="bg-color-primary-light">
+        <div class="container py-20">
+          <div class="text-center md:w-1/2 mb-20 m-auto">
+            <h4 class="text-color-secondary font-bold mb-4">How It Works</h4>
+            <h1 class="title">Grow Up Your Money Saving</h1>
+          </div>
+          <div class="flex flex-col space-y-6 justify-between md:flex-row md:space-y-0 md:space-x-6">
+          <!-- card 01 -->
+          <div class="text-center cursor-pointer">
+            <div class="bg-color-primary-dark relative px-6 py-3 rounded-lg cursor-pointer inline-block">
+              <p class="text-6xl">1</p>
+            </div>
+            <h3 class="text-xl font-bold py-4">Install the App</h3>
+              <p class="leading-relaxed">
+                Install the app from your mobile stor,<br> It's 100% Free!
+              </p>
+          </div>
+          <!-- card 02 -->
+          <div class="text-center cursor-pointer">
+            <div class="bg-color-secondary relative px-6 py-3 rounded-lg cursor-pointer inline-block">
+              <p class="text-6xl">2</p>
+            </div>
+            <h3 class="text-xl font-bold py-4">Setup Your Profile</h3>
+              <p class="leading-relaxed">
+                Set your profile in just 5 steps.
+              </p>
+          </div>
+          <!-- card 03 -->
+          <div class="text-center cursor-pointer">
+            <div class="bg-color-primary-dark relative px-6 py-3 rounded-lg cursor-pointer inline-block">
+              <p class="text-6xl">3</p>
+            </div>
+            <h3 class="text-xl font-bold py-4">Enjoy The Features</h3>
+                <p class="leading-relaxed">
+                  After setup you can see our amazing offers <br> & take advantage of it! 
+                </p>
+          </div>
+
+        </div>         
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <div class="container py-20">
+          <div class="text-center md:w-1/2 mb-20 m-auto">
+            <h4 class="text-color-secondary font-bold mb-4">User Review</h4>
+            <h1 class="title">What Clients Say About Our App Affter Use It</h1>
+          </div>
+
+          <!-- user Review -->
+          <div class="mt-8">
+            <div class="flex items-center justify-center flex-wrap">
+              <img class=" user-pic active-pic w-20 h-20 rounded-full p-1 m-3" src="/img/use1.jpg" alt="">
+              <img class=" user-pic w-20 h-20 rounded-full p-1 m-3" src="/img/user2.jpg" alt="">
+              <img class=" user-pic w-20 h-20 rounded-full p-1 m-3" src="/img/user3.jpg" alt="">
+              <img class=" user-pic w-20 h-20 rounded-full p-1 m-3" src="/img/user4.jpg" alt="">
+              <img class=" user-pic w-20 h-20 rounded-full p-1 m-3" src="/img/user5.jpg" alt="">
+            </div>
+
+            <div class="grid place-items-center text-center md:w-4/5 min-h-[40vh] mx-auto">
+              <div class="user-text active-text">
+                <p class="md:text-2xl font-medium mb-6">"This Should be Used To Tell a Story & Include any Testimonials You Might Have About Your Product or Service For Your Clients."</p>
+                <h4 class="text-lg font-bold text-color-secondary mb-1">Irtiza Shahbaz</h4>
+                <p>Web Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="bg-color-primary-light">
+        <div class="container py-20">
+          <div class="text-center md:w-1/2 mb-20 m-auto">
+            <h4 class="text-color-secondary font-bold mb-4">Pricing</h4>
+            <h1 class="title">Get in the Reasonable Price</h1>
+          </div>
+
+          <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            <!-- card 1 -->
+            <div class="relative h-auto w-auto">
+              <div class="px-7 py-11 rounded-2xl border-2 border-solid border-color-gray h-full w-full">
+                <div class="relative">
+                  <p class="text-6xl font-bold">$20 <span class="text-sm font-normal tracking-widest">/month</span></p>
+                </div>
+                <div class="py-10 ">
+                  <h3 class="text-3xl font-bold pb-3">Basic</h3>
+                  <p class="leading-relaxed">For Beginers who wants to Scale Business Localy</p>
+                </div>
+
+                <ul class="space-y-4 pb-10">
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                    <span class="pl-4">Expence Management</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                    <span class="pl-4">Card Management</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-gray"></i>
+                    <span class="pl-4">Instant Statics</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-gray"></i>
+                    <span class="pl-4">Bookmark Function</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-gray"></i>
+                    <span class="pl-4">Accounting System</span>
+                  </li>
+                </ul>
+                <button class="get-btn">Get Now</button>
+              </div>
+            </div>
+
+            <!-- card 1 -->
+            <div class="relative h-auto w-auto">
+              <div class="px-7 py-11 rounded-2xl border-2 border-solid border-color-gray h-full w-full">
+                <div class="relative">
+                  <p class="text-6xl font-bold">$80 <span class="text-sm font-normal tracking-widest">/month</span></p>
+                </div>
+                <div class="py-10 ">
+                  <h3 class="text-3xl font-bold pb-3">Standard</h3>
+                  <p class="leading-relaxed">For Intermediate who wants to Scale Business Globaly</p>
+                </div>
+
+                <ul class="space-y-4 pb-10">
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                    <span class="pl-4">Expence Management</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                    <span class="pl-4">Card Management</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                    <span class="pl-4">Instant Statics</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-gray"></i>
+                    <span class="pl-4">Bookmark Function</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-gray"></i>
+                    <span class="pl-4">Accounting System</span>
+                  </li>
+                </ul>
+                <button class="get-btn">Get Now</button>
+
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="relative h-auto w-auto">
+              <div class="px-7 py-11 rounded-2xl border-2 border-solid border-color-gray h-full w-full">
+                <div class="relative">
+                  <p class="text-6xl font-bold">$120 <span class="text-sm font-normal tracking-widest">/month</span></p>
+                </div>
+                <div class="py-10 ">
+                  <h3 class="text-3xl font-bold pb-3">Premiume</h3>
+                  <p class="leading-relaxed">For Pros who wants to Scale Business Internationally</p>
+                </div>
+
+                <ul class="space-y-4 pb-10">
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                    <span class="pl-4">Expence Management</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                    <span class="pl-4">Card Management</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                    <span class="pl-4">Instant Statics</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                    <span class="pl-4">Bookmark Function</span>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-bookmark text-color-secondary"></i>
+                    <span class="pl-4">Accounting System</span>
+                  </li>
+                </ul>
+                <button class="get-btn">Get Now</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog">
+        <div class="container py-20">
+          <div class="text-center md:w-1/2 mb-20 m-auto">
+            <h4 class="text-color-secondary font-bold mb-4">Inovation and Quality Improvment</h4>
+            <h1 class="title">Latest Updates, Solution and Company News</h1>
+          </div>
+
+          <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            <!-- card 01 -->
+            <div>
+              <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                <img src="/img/blog1.jpg" class="h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+              </div>
+              <div>
+                <div class="flex items-center gap-5 py-6">
+                  <p>20-Jan-2023</p>
+                  <p>1 min read</p>
+                </div>
+  
+                <a href="#blog" class="font-bold text-2xl underline hover:text-color-secondary hover:no-underline ease duration-300">Four ways to chair your self!</a>
+                <p class="leading-relaxed my-5">On the second edition of serious business, INC. Editor Irtiza and fusion senior editor Anas......</p>
+  
+                <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in">
+                  <span class="tracking-wider capitalize hover:underline duration-300">Read More</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- card 02 -->
+            <div>
+              <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                <img src="/img/blog2.webp" class="h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+              </div>
+              <div>
+                <div class="flex items-center gap-5 py-6">
+                  <p>20-Jan-2023</p>
+                  <p>1 min read</p>
+                </div>
+  
+                <a href="#blog" class="font-bold text-2xl underline hover:text-color-secondary hover:no-underline ease duration-300">How to Manage your Budget for More Productivity!</a>
+                <p class="leading-relaxed my-5">On the second edition of serious business, INC. Editor Irtiza and fusion senior editor Anas......</p>
+  
+                <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in">
+                  <span class="tracking-wider capitalize hover:underline duration-300">Read More</span>
+                </a>
+              </div>
+            </div>
+
+
+            <!-- card 03 -->
+            <div>
+              <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                <img src="/img/blog3.webp" class="h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+              </div>
+              <div>
+                <div class="flex items-center gap-5 py-6">
+                  <p>20-Jan-2023</p>
+                  <p>1 min read</p>
+                </div>
+  
+                <a href="#blog" class="font-bold text-2xl underline hover:text-color-secondary hover:no-underline ease duration-300">Should Small business change our liefe?</a>
+                <p class="leading-relaxed my-5">On the second edition of serious business, INC. Editor Irtiza and fusion senior editor Anas......</p>
+  
+                <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in">
+                  <span class="tracking-wider capitalize hover:underline duration-300">Read More</span>
+                </a>
+              </div>
+            </div>
+
+
+            
+
+
+
+          </div>
+        </div>
+      </section>
+
+      <section id="download-app" class="bg-color-primary-light">
+        <div class="container h-[80vh] grid place-items-center">
+         <div class="text-center md:w-2/3 m-auto">
+          <h1 class="title">Download App Now & Save Your Money</h1>
+          <p class="leading-relaxed mt-5">Serving and impressive list of long-term money with experienced and expertise in multiple industries.</p> 
+
+          <div class="flex flex-col gap-5 mt-10 justify-center md:flex-row">
+            <a href="#" class="bg-white h-16 w-44 grid place-items-center rounded-xl hover:opacity-70">
+              <img src="/img/apple.png">
+            </a>
+            <a href="#" class="bg-white h-16 w-44 grid place-items-center rounded-xl hover:opacity-70">
+              <img src="/img/play.png">
+            </a>
+          </div>
+
+
+
+         </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container py-20">
+          <div class="text-center md:w-1/2 mb-20 m-auto">
+            <h4 class="text-color-secondary font-bold mb-4">Have a Question?</h4>
+            <h1 class="title">Get in Touch!</h1>
+          </div>
+
+          <form>
+            <div class="w-full md:h-2/3 text-center m-auto">
+              <div class="grid gap-6 md:grid-cols-2 text-color-primary-dark">
+                <input type="text" class="bg-gray-50 border-gray-300  p-3 text-sm rounded-lg block  w-full focus:outline-none focus:border-color-secondary border-2" placeholder="Name" required>
+
+                <input type="email" class="bg-gray-50 border-gray-300  p-3 text-sm rounded-lg block  w-full focus:outline-none focus:border-color-secondary border-2" placeholder="Email" required>
+
+                <input type="tel" class="bg-gray-50 border-gray-300  p-3 text-sm rounded-lg block  w-full focus:outline-none focus:border-color-secondary border-2" placeholder="Phone">
+
+                <input type="email" class="bg-gray-50 border-gray-300  p-3 text-sm rounded-lg block  w-full focus:outline-none focus:border-color-secondary border-2" placeholder="Company">
+              </div>
+
+              <textarea rows="4" class="text-color-primary-dark mt-6 bg-gray-50 border-gray-300  p-3 text-sm rounded-lg block  w-full focus:outline-none focus:border-color-secondary border-2" placeholder="Type Your Message" required></textarea>
+
+              <button class="btn mt-10">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="footer">
+        <div class="bg-color-primary-dark relative">
+          <div class="container py-10">
+            <div class="grid gap-10 md:grid-cols-3">
+              <div class="space-y-6">
+                <h4 class="font-bold text-lg">About App</h4>
+                <p class="leading-relaxed">This Should be Used To Tell a Story & Include any Testimonials You Might Have About Your Product or Service For Your Clients.</p>
+                <div class="flex gap-5 items-center">
+                  <p>Follow Us</p>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-x-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </div>
+              <div class="flex justify-between md:justify-around">
+                <div class="space-y-6">
+                  <h4 class="font-bold text-lg">Quick Links</h4>
+                  <ul class="space-y-3">
+                    <li><a class="underline hover:no-underline hover:text-color-secondary duration-200" href="#">Home</a></li>
+                    <li><a class="underline hover:no-underline hover:text-color-secondary duration-200" href="#features">Features</a></li>
+                    <li><a class="underline hover:no-underline hover:text-color-secondary duration-200" href="#testimonials">Testimonials</a></li>
+                    <li><a class="underline hover:no-underline hover:text-color-secondary duration-200" href="#pricing">Pricing</a></li>
+                    <li><a class="underline hover:no-underline hover:text-color-secondary duration-200" href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+
+                <div class="space-y-6">
+                  <h4 class="font-bold text-lg">Help</h4>
+                  <ul class="space-y-3">
+                    <li><a class="underline hover:no-underline hover:text-color-secondary duration-200" href="">About Us</a></li>
+                    <li><a class="underline hover:no-underline hover:text-color-secondary duration-200" href="">Partners</a></li>
+                    <li><a class="underline hover:no-underline hover:text-color-secondary duration-200" href="">Carrer</a></li>
+                    <li><a class="underline hover:no-underline hover:text-color-secondary duration-200" href="">Review</a></li>
+                    <li><a class="underline hover:no-underline hover:text-color-secondary duration-200" href="">Terms and Condition</a></li>
+                    <li><a class="underline hover:no-underline hover:text-color-secondary duration-200" href="">Help</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="space-y-6">
+                <h4 class="font-bold text-lg">Newsletter</h4>
+                <p class="leading-relaxed">Subscribe With Your Email and Lots Of News Will Be Sent To You</p>
+                <div class="flex items-center">
+                  <input type="email" class="w-3/4 p-2 text-slate-500 bg-white lg:rounded-l-md focus:outline-none" placeholder="Enter Your Email">
+                  <button type="submit" class="bg-color-secondary px-4 py-2 rounded-r-md hover:opacity-70 duration-300"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex justify-center items-center border-t-2 border-gray-400 mt-10 pt-10">
+              <p>2023 ©DigitalFinance. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- javascript -->
+    <!-- javascript -->
+    <!-- javascript -->
+    <!-- javascript -->
+
+    <script>
+      //mobile menu
+      const bars = document.querySelector("#bars");
+      const menu = document.querySelector("#menu");
+      const hLinks = document.querySelectorAll("#hLinks");
+      const faSolid = document.querySelector(".fa-solid");
+      bars.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+        faSolid.classList.toggle("fa-xmark");
+      });
+
+      hLinks.forEach((links) => {
+        link.addEventListener("click", () => {
+          menu.classList.toggle("hidden");
+          faSolid.classList.toggle("fa-xmark");
+        });
+      });
+
+    </script>
+  </body>
+</html>
