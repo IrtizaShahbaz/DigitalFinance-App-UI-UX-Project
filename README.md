@@ -1,7 +1,7 @@
 # DigitalFinance-App-UI-UX-Project
 ## Overview
 
-![Web App Screenshot](img/git-img.PNG)
+![Web App Screenshot](img/git-img.png)
 
 ## Purpose
 I have created this project using TailwindCSS. The purpose of creating this project is to display my skills all over the world and also I want to polish my skills in TailwindCSS.
